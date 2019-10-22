@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CareerTrendsActivity">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardElevation="5dp"
+        app:cardUseCompatPadding="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="Career Trends in Bangladesh"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/crtr1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="6dp"
+            android:textStyle="bold|italic"
+            android:text="@string/crtr1"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/crtr2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="6dp"
+            android:textStyle="bold|italic"
+            android:text="@string/crtr2"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/crtr3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="6dp"
+            android:textStyle="bold|italic"
+            android:text="@string/crtr3"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/crtr4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="6dp"
+            android:textStyle="bold|italic"
+            android:text="@string/crtr4"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/crtr5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="6dp"
+            android:textStyle="bold|italic"
+            android:text="@string/crtr5"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/crtr6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="6dp"
+            android:textStyle="bold|italic"
+            android:text="@string/crtr6"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/crtr7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="6dp"
+            android:textStyle="bold|italic"
+            android:text="@string/crtr7"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/crtr8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="6dp"
+            android:textStyle="bold|italic"
+            android:text="@string/crtr8"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/crtr9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="6dp"
+            android:textStyle="bold|italic"
+            android:text="@string/crtr9"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/crtr10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="6dp"
+            android:textStyle="bold|italic"
+            android:text="@string/crtr10"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:textColor="#000"/>
+
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.core.widget.NestedScrollView>

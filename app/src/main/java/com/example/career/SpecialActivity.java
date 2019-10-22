@@ -54,7 +54,7 @@ public class SpecialActivity extends AppCompatActivity {
         trends.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),NoticeActivity.class);
+               intent = new Intent(getApplicationContext(),CareerTrendsActivity.class);
                 startActivity(intent);
                 //working
             }

@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Career</string>
+
+    <string name="crtr1"><a href="https://www.thedailystar.net/business/bangladesh-job-market-disquieting-trend-1574197">1.Disquieting trend in job market</a></string>
+    <string name="crtr2"><a href="https://www.adb.org/publications/employment-and-labor-market-bangladesh-trends-challenges">2.Employment and the Labor Market in Bangladesh</a></string>
+    <string name="crtr3"><a href="https://www.textiletoday.com.bd/employment-trends-2018-bangladesh-textile-apparel-industry/">3.Employment trends in 2018 in Bangladesh textile and apparel industry</a></string>
+    <string name="crtr4"><a href="https://blog.bikroy.com/top-10-most-in-demand-jobs-in-bangladesh-for-2018/">4.Top 10 Most In-Demand Jobs in Bangladesh</a></string>
+    <string name="crtr5"><a href="https://cpd.org.bd/employment-generation-in-bangladesh/">5.Employment generation in Bangladesh</a></string>
+    <string name="crtr6"><a href="https://www.dhakatribune.com/career/2017/07/27/manufacturing-industry-leading-job-market">6.Manufacturing industry leads job market</a></string>
+    <string name="crtr7"><a href="https://www.statista.com/statistics/438360/employment-by-economic-sector-in-bangladesh/">7.Employment by economic sector in Bangladesh 2018</a></string>
+    <string name="crtr8"><a href="https://www.lightcastlebd.com/insights/2019/03/20/bangladesh-economic-outlook-2019-a-resilient-economy-in-need-of-sound-policy">8.Bangladesh Economic Outlook 2019</a></string>
+    <string name="crtr9"><a href="https://www.bdjobs.com/career/training/fdi_list.asp">9.Fashion Design Institutes in Bangladesh</a></string>
+    <string name="crtr10"><a href="https://www.businessdaily24.com/10-best-engineer-architect-jobs-bangladesh/">10 Best Engineer and Architect Jobs in Bangladesh</a></string>
 </resources>
