@@ -10,6 +10,7 @@ import android.widget.ImageView;
 
 public class SpecialActivity extends AppCompatActivity {
     ImageView sub_review, cal,video, trends,tips, transport ;
+    Intent intent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,7 +26,7 @@ public class SpecialActivity extends AppCompatActivity {
         sub_review.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),NoticeActivity.class);
+                Intent intent = new Intent(getApplicationContext(),SubReviewActivity.class);
                 startActivity(intent);
                 //working
             }
@@ -43,9 +44,10 @@ public class SpecialActivity extends AppCompatActivity {
         video.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),NoticeActivity.class);
+                String careervdomsg = "https://www.youtube.com/results?search_query=career+video";
+                intent = new Intent(getApplicationContext(),YoutubeActivity.class);
+                intent.putExtra("careervdo_msg",careervdomsg);
                 startActivity(intent);
-                //working
             }
         });
 
@@ -61,7 +63,9 @@ public class SpecialActivity extends AppCompatActivity {
         tips.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),NoticeActivity.class);
+                String tipsmsg = "https://inomics.com/search?insight=insight-ranking,insight-study-abroad,insight-study-advice,insight-work-abroad";
+                intent = new Intent(getApplicationContext(),YoutubeActivity.class);
+                intent.putExtra("tips_msg",tipsmsg);
                 startActivity(intent);
                 //working
             }
@@ -70,7 +74,9 @@ public class SpecialActivity extends AppCompatActivity {
         transport.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),NoticeActivity.class);
+                String transportmsg = "https://www.shohoz.com/bus-tickets";
+                intent = new Intent(getApplicationContext(),YoutubeActivity.class);
+                intent.putExtra("transport_msg",transportmsg);
                 startActivity(intent);
                 //working
             }
