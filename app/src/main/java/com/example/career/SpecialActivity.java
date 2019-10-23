@@ -26,7 +26,7 @@ public class SpecialActivity extends AppCompatActivity {
         sub_review.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),SubReviewActivity.class);
+                intent = new Intent(getApplicationContext(),SubReviewActivity.class);
                 startActivity(intent);
                 //working
             }
@@ -35,7 +35,7 @@ public class SpecialActivity extends AppCompatActivity {
         cal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),NoticeActivity.class);
+                intent = new Intent(getApplicationContext(),ExamCalendarActivity.class);
                 startActivity(intent);
                 //working
             }
