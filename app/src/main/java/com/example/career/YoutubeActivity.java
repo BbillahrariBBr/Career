@@ -24,6 +24,16 @@ public class YoutubeActivity extends AppCompatActivity {
         String transportmsg = intent.getStringExtra("transport_msg");
 
 
+        String uclmsg = intent.getStringExtra("ucl_msg");
+        String harvardmsg = intent.getStringExtra("harvard_msg");
+        String stanfordmsg = intent.getStringExtra("stanford_msg");
+        String oxfordmsg = intent.getStringExtra("oxford_msg");
+        String cambridgemsg = intent.getStringExtra("cambridge_msg");
+        String hongkongmsg = intent.getStringExtra("hongkong_msg");
+        String torontomsg = intent.getStringExtra("toronto_msg");
+
+
+
 
         WebView webView = (WebView)findViewById(R.id.subreviewwebview);
         if(intent.getStringExtra("cse_msg") == csemsg){
@@ -53,5 +63,38 @@ public class YoutubeActivity extends AppCompatActivity {
         if(intent.getStringExtra("transport_msg") == transportmsg){
             webView.loadUrl(transportmsg);
         }
+
+
+        if(intent.getStringExtra("ucl_msg") == uclmsg){
+            webView.loadUrl(uclmsg);
+        }
+
+        if(intent.getStringExtra("harvard_msg") == harvardmsg){
+            webView.loadUrl(harvardmsg);
+        }
+
+
+        if(intent.getStringExtra("stanford_msg") == stanfordmsg){
+            webView.loadUrl(stanfordmsg);
+        }
+
+        if(intent.getStringExtra("oxford_msg") == oxfordmsg){
+            webView.loadUrl(oxfordmsg);
+        }
+
+        if(intent.getStringExtra("cambridge_msg") == cambridgemsg){
+            webView.loadUrl(cambridgemsg);
+        }
+
+
+        if(intent.getStringExtra("hongkong_msg") == hongkongmsg){
+            webView.loadUrl(hongkongmsg);
+        }
+
+        if(intent.getStringExtra("toronto_msg") == torontomsg){
+            webView.loadUrl(torontomsg);
+        }
+
+
     }
 }

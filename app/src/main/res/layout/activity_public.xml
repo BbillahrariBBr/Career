@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bgforapp"
-    tools:context=".AbroadActivity">
+    tools:context=".PublicActivity">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -22,6 +22,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
+
+
                 <LinearLayout
 
                     android:padding="16dp"
@@ -32,7 +34,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="2"
-                        android:text="University College London"
+                        android:text="University of Dhaka"
                         android:textColor="#000"
                         android:textSize="21sp"
                         android:textStyle="bold">
@@ -41,66 +43,54 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Rank-8"
+                        android:text="Est:1921"
                         android:textColor="#000"
                         android:textSize="21sp"
                         android:textStyle="bold">
                     </TextView>
 
-                </LinearLayout>
-                <androidx.appcompat.widget.AppCompatImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/imgucl">
-
-                </androidx.appcompat.widget.AppCompatImageView>
-
-                <LinearLayout
-                    android:padding="16dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="2"
-                        android:text="Student's- 32,795"
-                        android:textColor="#000"
-                        android:textSize="21sp"
-                        android:textStyle="bold">
-                    </TextView>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Scholarship- YES"
-                        android:textColor="#000"
-                        android:textSize="21sp"
-                        android:textStyle="bold">
-                    </TextView>
                 </LinearLayout>
                 <TextView
                     android:padding="16dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="UCL is one of the world’s top multidisciplinary universities, with an international reputation for the quality of its research and teaching"
+                    android:text="@string/dudes"
                     android:textSize="14sp"
                     android:textStyle="normal"
                     android:textColor="#000"
                     android:layout_marginBottom="2dp">
                 </TextView>
-                <Button
-                    android:id="@+id/ucl"
+
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Visit Now"
-                    android:textStyle="bold"
-                    android:textSize="21sp"
-                    android:textAlignment="center"
-                    android:background="@drawable/bg_green">
-                </Button>
+                    android:orientation="horizontal">
+                    <Button
+                        android:id="@+id/duadmission"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Admission Info"
+                        android:textStyle="bold"
+                        android:textSize="21sp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="2"
+                        android:textAlignment="center"
+                        android:background="@drawable/bg_green">
+                    </Button>
+                    <Button
+                        android:id="@+id/duvisit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Visit Now"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:textSize="21sp"
+                        android:textAlignment="center"
+                        android:background="@drawable/bg_yellow">
+                    </Button>
+                </LinearLayout>
             </LinearLayout>
-
 
         </androidx.cardview.widget.CardView>
 
@@ -109,12 +99,14 @@
             android:layout_height="wrap_content"
             app:cardElevation="5dp"
             app:cardCornerRadius="8dp"
-            android:layout_marginTop="3dp"
+            android:layout_marginTop="5dp"
             app:cardUseCompatPadding="true">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
+
+
                 <LinearLayout
 
                     android:padding="16dp"
@@ -125,7 +117,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="2"
-                        android:text="Harvard University "
+                        android:text="Jahangirnagar University"
                         android:textColor="#000"
                         android:textSize="21sp"
                         android:textStyle="bold">
@@ -134,66 +126,138 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Rank-3"
+                        android:text="Est:1970"
                         android:textColor="#000"
                         android:textSize="21sp"
                         android:textStyle="bold">
                     </TextView>
 
-                </LinearLayout>
-                <androidx.appcompat.widget.AppCompatImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/imgharvard">
-
-                </androidx.appcompat.widget.AppCompatImageView>
-
-                <LinearLayout
-                    android:padding="16dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="2"
-                        android:text="Student's- 23,373"
-                        android:textColor="#000"
-                        android:textSize="21sp"
-                        android:textStyle="bold">
-                    </TextView>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Scholarship- YES"
-                        android:textColor="#000"
-                        android:textSize="21sp"
-                        android:textStyle="bold">
-                    </TextView>
                 </LinearLayout>
                 <TextView
                     android:padding="16dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world"
+                    android:text="@string/judes"
                     android:textSize="14sp"
                     android:textStyle="normal"
                     android:textColor="#000"
                     android:layout_marginBottom="2dp">
                 </TextView>
-                <Button
-                    android:id="@+id/harvard"
+
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Visit Now"
-                    android:textStyle="bold"
-                    android:textSize="21sp"
-                    android:textAlignment="center"
-                    android:background="@drawable/bg_green">
-                </Button>
+                    android:orientation="horizontal">
+                    <Button
+                        android:id="@+id/juadmission"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Admission Info"
+                        android:textStyle="bold"
+                        android:textSize="21sp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="2"
+                        android:textAlignment="center"
+                        android:background="@drawable/bg_green">
+                    </Button>
+                    <Button
+                        android:id="@+id/juvisit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Visit Now"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:textSize="21sp"
+                        android:textAlignment="center"
+                        android:background="@drawable/bg_yellow">
+                    </Button>
+                </LinearLayout>
             </LinearLayout>
 
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="8dp"
+            android:layout_marginTop="5dp"
+            app:cardUseCompatPadding="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+
+                    android:padding="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="Jagannath University"
+                        android:textColor="#000"
+                        android:textSize="21sp"
+                        android:textStyle="bold">
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Est:2005"
+                        android:textColor="#000"
+                        android:textSize="21sp"
+                        android:textStyle="bold">
+                    </TextView>
+
+                </LinearLayout>
+                <TextView
+                    android:padding="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jnudes"
+                    android:textSize="14sp"
+                    android:textStyle="normal"
+                    android:textColor="#000"
+                    android:layout_marginBottom="2dp">
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <Button
+                        android:id="@+id/jnuadmission"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Admission Info"
+                        android:textStyle="bold"
+                        android:textSize="21sp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="2"
+                        android:textAlignment="center"
+                        android:background="@drawable/bg_green">
+                    </Button>
+                    <Button
+                        android:id="@+id/jnuvisit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Visit Now"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:textSize="21sp"
+                        android:textAlignment="center"
+                        android:background="@drawable/bg_yellow">
+                    </Button>
+                </LinearLayout>
+            </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
@@ -202,12 +266,14 @@
             android:layout_height="wrap_content"
             app:cardElevation="5dp"
             app:cardCornerRadius="8dp"
-            android:layout_marginTop="3dp"
+            android:layout_marginTop="5dp"
             app:cardUseCompatPadding="true">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
+
+
                 <LinearLayout
 
                     android:padding="16dp"
@@ -218,7 +284,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="2"
-                        android:text="Stanford University"
+                        android:text="University of Chittagong"
                         android:textColor="#000"
                         android:textSize="21sp"
                         android:textStyle="bold">
@@ -227,66 +293,54 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Rank-2"
+                        android:text="Est:1966"
                         android:textColor="#000"
                         android:textSize="21sp"
                         android:textStyle="bold">
                     </TextView>
 
-                </LinearLayout>
-                <androidx.appcompat.widget.AppCompatImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/imgstanford">
-
-                </androidx.appcompat.widget.AppCompatImageView>
-
-                <LinearLayout
-                    android:padding="16dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="2"
-                        android:text="Student's- 16,233"
-                        android:textColor="#000"
-                        android:textSize="21sp"
-                        android:textStyle="bold">
-                    </TextView>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Scholarship- YES"
-                        android:textColor="#000"
-                        android:textSize="21sp"
-                        android:textStyle="bold">
-                    </TextView>
                 </LinearLayout>
                 <TextView
                     android:padding="16dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Stanford University is in the heart of Northern California’s dynamic Silicon Valley, home to Yahoo, Google, Hewlett-Packard, and many other cutting-edge tech companies that were founded by and continue to be led by Stanford alumni and faculty."
+                    android:text="@string/cudes"
                     android:textSize="14sp"
                     android:textStyle="normal"
                     android:textColor="#000"
                     android:layout_marginBottom="2dp">
                 </TextView>
-                <Button
-                    android:id="@+id/stanford"
+
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Visit Now"
-                    android:textStyle="bold"
-                    android:textSize="21sp"
-                    android:textAlignment="center"
-                    android:background="@drawable/bg_green">
-                </Button>
+                    android:orientation="horizontal">
+                    <Button
+                        android:id="@+id/cuadmission"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Admission Info"
+                        android:textStyle="bold"
+                        android:textSize="21sp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="2"
+                        android:textAlignment="center"
+                        android:background="@drawable/bg_green">
+                    </Button>
+                    <Button
+                        android:id="@+id/cuvisit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Visit Now"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:textSize="21sp"
+                        android:textAlignment="center"
+                        android:background="@drawable/bg_yellow">
+                    </Button>
+                </LinearLayout>
             </LinearLayout>
-
 
         </androidx.cardview.widget.CardView>
 
@@ -295,12 +349,14 @@
             android:layout_height="wrap_content"
             app:cardElevation="5dp"
             app:cardCornerRadius="8dp"
-            android:layout_marginTop="3dp"
+            android:layout_marginTop="5dp"
             app:cardUseCompatPadding="true">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
+
+
                 <LinearLayout
 
                     android:padding="16dp"
@@ -311,7 +367,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="2"
-                        android:text="University of Oxford"
+                        android:text="Khulna University"
                         android:textColor="#000"
                         android:textSize="21sp"
                         android:textStyle="bold">
@@ -320,66 +376,54 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Rank-4"
+                        android:text="Est:1987"
                         android:textColor="#000"
                         android:textSize="21sp"
                         android:textStyle="bold">
                     </TextView>
 
-                </LinearLayout>
-                <androidx.appcompat.widget.AppCompatImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/imgoxford">
-
-                </androidx.appcompat.widget.AppCompatImageView>
-
-                <LinearLayout
-                    android:padding="16dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="2"
-                        android:text="Student's- 20,735"
-                        android:textColor="#000"
-                        android:textSize="21sp"
-                        android:textStyle="bold">
-                    </TextView>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Scholarship- YES"
-                        android:textColor="#000"
-                        android:textSize="21sp"
-                        android:textStyle="bold">
-                    </TextView>
                 </LinearLayout>
                 <TextView
                     android:padding="16dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="The University of Oxford is the oldest university in the English-speaking world, and is actually so ancient that its founding date is unknown – though it is thought that teaching took place there as early as the 11th century"
+                    android:text="@string/kudes"
                     android:textSize="14sp"
                     android:textStyle="normal"
                     android:textColor="#000"
                     android:layout_marginBottom="2dp">
                 </TextView>
-                <Button
-                    android:id="@+id/oxford"
+
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Visit Now"
-                    android:textStyle="bold"
-                    android:textSize="21sp"
-                    android:textAlignment="center"
-                    android:background="@drawable/bg_green">
-                </Button>
+                    android:orientation="horizontal">
+                    <Button
+                        android:id="@+id/kuadmission"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Admission Info"
+                        android:textStyle="bold"
+                        android:textSize="21sp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="2"
+                        android:textAlignment="center"
+                        android:background="@drawable/bg_green">
+                    </Button>
+                    <Button
+                        android:id="@+id/kuvisit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Visit Now"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:textSize="21sp"
+                        android:textAlignment="center"
+                        android:background="@drawable/bg_yellow">
+                    </Button>
+                </LinearLayout>
             </LinearLayout>
-
 
         </androidx.cardview.widget.CardView>
 
@@ -388,12 +432,14 @@
             android:layout_height="wrap_content"
             app:cardElevation="5dp"
             app:cardCornerRadius="8dp"
-            android:layout_marginTop="3dp"
+            android:layout_marginTop="0dp"
             app:cardUseCompatPadding="true">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
+
+
                 <LinearLayout
 
                     android:padding="16dp"
@@ -404,7 +450,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="2"
-                        android:text="University of Cambridge"
+                        android:text="University of Rajshahi"
                         android:textColor="#000"
                         android:textSize="21sp"
                         android:textStyle="bold">
@@ -413,66 +459,54 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Rank-7"
+                        android:text="Est:1953"
                         android:textColor="#000"
                         android:textSize="21sp"
                         android:textStyle="bold">
                     </TextView>
 
-                </LinearLayout>
-                <androidx.appcompat.widget.AppCompatImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/imgcambridge">
-
-                </androidx.appcompat.widget.AppCompatImageView>
-
-                <LinearLayout
-                    android:padding="16dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="2"
-                        android:text="Student's- 19,578"
-                        android:textColor="#000"
-                        android:textSize="21sp"
-                        android:textStyle="bold">
-                    </TextView>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Scholarship- YES"
-                        android:textColor="#000"
-                        android:textSize="21sp"
-                        android:textStyle="bold">
-                    </TextView>
                 </LinearLayout>
                 <TextView
                     android:padding="16dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Located in the center of the ancient city of Cambridge, 50 miles north of London, the University of Cambridge is a collegiate public research institution that serves more than 18,000 students from all corners of the globe"
+                    android:text="@string/rudes"
                     android:textSize="14sp"
                     android:textStyle="normal"
                     android:textColor="#000"
                     android:layout_marginBottom="2dp">
                 </TextView>
-                <Button
-                    android:id="@+id/cambridge"
+
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Visit Now"
-                    android:textStyle="bold"
-                    android:textSize="21sp"
-                    android:textAlignment="center"
-                    android:background="@drawable/bg_green">
-                </Button>
+                    android:orientation="horizontal">
+                    <Button
+                        android:id="@+id/ruadmission"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Admission Info"
+                        android:textStyle="bold"
+                        android:textSize="21sp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="2"
+                        android:textAlignment="center"
+                        android:background="@drawable/bg_green">
+                    </Button>
+                    <Button
+                        android:id="@+id/ruvisit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Visit Now"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:textSize="21sp"
+                        android:textAlignment="center"
+                        android:background="@drawable/bg_yellow">
+                    </Button>
+                </LinearLayout>
             </LinearLayout>
-
 
         </androidx.cardview.widget.CardView>
 
@@ -481,12 +515,14 @@
             android:layout_height="wrap_content"
             app:cardElevation="5dp"
             app:cardCornerRadius="8dp"
-            android:layout_marginTop="3dp"
+            android:layout_marginTop="0dp"
             app:cardUseCompatPadding="true">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
+
+
                 <LinearLayout
 
                     android:padding="16dp"
@@ -497,7 +533,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="2"
-                        android:text="The University of Hong Kong"
+                        android:text="Barisal University"
                         android:textColor="#000"
                         android:textSize="21sp"
                         android:textStyle="bold">
@@ -506,164 +542,59 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Rank-25"
+                        android:text="Est:2011"
                         android:textColor="#000"
                         android:textSize="21sp"
                         android:textStyle="bold">
                     </TextView>
 
-                </LinearLayout>
-                <androidx.appcompat.widget.AppCompatImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/imghongkong">
-
-                </androidx.appcompat.widget.AppCompatImageView>
-
-                <LinearLayout
-                    android:padding="16dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="2"
-                        android:text="Student's- 20,187"
-                        android:textColor="#000"
-                        android:textSize="21sp"
-                        android:textStyle="bold">
-                    </TextView>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Scholarship- YES"
-                        android:textColor="#000"
-                        android:textSize="21sp"
-                        android:textStyle="bold">
-                    </TextView>
-                </LinearLayout>
-                <TextView
-                    android:padding="16dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="The University of Hong Kong (HKU), is Hong Kong’s oldest tertiary institution, with a history stretching back over a hundred years. The University of Hong Kong is ranked 26th amongst the most respected comprehensive research-led universities in the world"
-                    android:textSize="14sp"
-                    android:textStyle="normal"
-                    android:textColor="#000"
-                    android:layout_marginBottom="2dp">
-                </TextView>
-                <Button
-                    android:id="@+id/hongkong"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Visit Now"
-                    android:textStyle="bold"
-                    android:textSize="21sp"
-                    android:textAlignment="center"
-                    android:background="@drawable/bg_green">
-                </Button>
-            </LinearLayout>
-
-
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:cardElevation="5dp"
-            app:cardCornerRadius="8dp"
-            android:layout_marginTop="3dp"
-            app:cardUseCompatPadding="true">
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-                <LinearLayout
-
-                    android:padding="16dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="2"
-                        android:text="University of Toronto "
-                        android:textColor="#000"
-                        android:textSize="21sp"
-                        android:textStyle="bold">
-                    </TextView>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Rank-30"
-                        android:textColor="#000"
-                        android:textSize="21sp"
-                        android:textStyle="bold">
-                    </TextView>
-
-                </LinearLayout>
-                <androidx.appcompat.widget.AppCompatImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/imgtoronto">
-
-                </androidx.appcompat.widget.AppCompatImageView>
-
-                <LinearLayout
-                    android:padding="16dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="2"
-                        android:text="Student's- 74,299"
-                        android:textColor="#000"
-                        android:textSize="21sp"
-                        android:textStyle="bold">
-                    </TextView>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Scholarship- YES"
-                        android:textColor="#000"
-                        android:textSize="21sp"
-                        android:textStyle="bold">
-                    </TextView>
                 </LinearLayout>
                 <TextView
                     android:padding="16dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="The University of Toronto has evolved into Canada’s leading institution of learning, discovery and knowledge creation. We are proud to be one of the world’s top research-intensive universities, driven to invent and innovate"
+                    android:text="@string/budes"
                     android:textSize="14sp"
                     android:textStyle="normal"
                     android:textColor="#000"
                     android:layout_marginBottom="2dp">
                 </TextView>
-                <Button
-                    android:id="@+id/toronto"
+
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Visit Now"
-                    android:textStyle="bold"
-                    android:textSize="21sp"
-                    android:textAlignment="center"
-                    android:background="@drawable/bg_green">
-                </Button>
+                    android:orientation="horizontal">
+                    <Button
+                        android:id="@+id/buadmission"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Admission Info"
+                        android:textStyle="bold"
+                        android:textSize="21sp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="2"
+                        android:textAlignment="center"
+                        android:background="@drawable/bg_green">
+                    </Button>
+                    <Button
+                        android:id="@+id/buvisit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Visit Now"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:textSize="21sp"
+                        android:textAlignment="center"
+                        android:background="@drawable/bg_yellow">
+                    </Button>
+                </LinearLayout>
             </LinearLayout>
 
-
         </androidx.cardview.widget.CardView>
-
 
 
 
     </LinearLayout>
+
 </ScrollView>
