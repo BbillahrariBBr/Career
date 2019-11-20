@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgforapp"
+    tools:context=".EngActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="8dp"
+            android:layout_marginTop="250dp"
+            app:cardUseCompatPadding="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+
+                    android:padding="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="BUET"
+                        android:textColor="#000"
+                        android:textSize="21sp"
+                        android:textStyle="bold">
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Est:1962"
+                        android:textColor="#000"
+                        android:textSize="21sp"
+                        android:textStyle="bold">
+                    </TextView>
+
+                </LinearLayout>
+                <TextView
+                    android:padding="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/buetdes"
+                    android:textSize="14sp"
+                    android:textStyle="normal"
+                    android:textColor="#000"
+                    android:layout_marginBottom="2dp">
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <Button
+                        android:id="@+id/buetadmission"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Admission Info"
+                        android:textStyle="bold"
+                        android:textSize="21sp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="2"
+                        android:textAlignment="center"
+                        android:background="@drawable/bg_green">
+                    </Button>
+                    <Button
+                        android:id="@+id/buetvisit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Visit Now"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:textSize="21sp"
+                        android:textAlignment="center"
+                        android:background="@drawable/bg_yellow">
+                    </Button>
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="8dp"
+            android:layout_marginTop="5dp"
+            app:cardUseCompatPadding="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+
+                    android:padding="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="RUET"
+                        android:textColor="#000"
+                        android:textSize="21sp"
+                        android:textStyle="bold">
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Est:2003"
+                        android:textColor="#000"
+                        android:textSize="21sp"
+                        android:textStyle="bold">
+                    </TextView>
+
+                </LinearLayout>
+                <TextView
+                    android:padding="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ruetdes"
+                    android:textSize="14sp"
+                    android:textStyle="normal"
+                    android:textColor="#000"
+                    android:layout_marginBottom="2dp">
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <Button
+                        android:id="@+id/ruetadmission"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Admission Info"
+                        android:textStyle="bold"
+                        android:textSize="21sp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="2"
+                        android:textAlignment="center"
+                        android:background="@drawable/bg_green">
+                    </Button>
+                    <Button
+                        android:id="@+id/ruetvisit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Visit Now"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:textSize="21sp"
+                        android:textAlignment="center"
+                        android:background="@drawable/bg_yellow">
+                    </Button>
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="8dp"
+            android:layout_marginTop="5dp"
+            app:cardUseCompatPadding="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+
+                    android:padding="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="KUET"
+                        android:textColor="#000"
+                        android:textSize="21sp"
+                        android:textStyle="bold">
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Est:2003"
+                        android:textColor="#000"
+                        android:textSize="21sp"
+                        android:textStyle="bold">
+                    </TextView>
+
+                </LinearLayout>
+                <TextView
+                    android:padding="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kuetdes"
+                    android:textSize="14sp"
+                    android:textStyle="normal"
+                    android:textColor="#000"
+                    android:layout_marginBottom="2dp">
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <Button
+                        android:id="@+id/kuetadmission"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Admission Info"
+                        android:textStyle="bold"
+                        android:textSize="21sp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="2"
+                        android:textAlignment="center"
+                        android:background="@drawable/bg_green">
+                    </Button>
+                    <Button
+                        android:id="@+id/kuetvisit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Visit Now"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:textSize="21sp"
+                        android:textAlignment="center"
+                        android:background="@drawable/bg_yellow">
+                    </Button>
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="8dp"
+            android:layout_marginTop="5dp"
+            app:cardUseCompatPadding="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+
+                    android:padding="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="CUET"
+                        android:textColor="#000"
+                        android:textSize="21sp"
+                        android:textStyle="bold">
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Est:2003"
+                        android:textColor="#000"
+                        android:textSize="21sp"
+                        android:textStyle="bold">
+                    </TextView>
+
+                </LinearLayout>
+                <TextView
+                    android:padding="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cuetdes"
+                    android:textSize="14sp"
+                    android:textStyle="normal"
+                    android:textColor="#000"
+                    android:layout_marginBottom="2dp">
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <Button
+                        android:id="@+id/cuetadmission"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Admission Info"
+                        android:textStyle="bold"
+                        android:textSize="21sp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="2"
+                        android:textAlignment="center"
+                        android:background="@drawable/bg_green">
+                    </Button>
+                    <Button
+                        android:id="@+id/cuetvisit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Visit Now"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:textSize="21sp"
+                        android:textAlignment="center"
+                        android:background="@drawable/bg_yellow">
+                    </Button>
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="8dp"
+            android:layout_marginTop="5dp"
+            app:cardUseCompatPadding="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+
+                    android:padding="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="DUET"
+                        android:textColor="#000"
+                        android:textSize="21sp"
+                        android:textStyle="bold">
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Est:2003"
+                        android:textColor="#000"
+                        android:textSize="21sp"
+                        android:textStyle="bold">
+                    </TextView>
+
+                </LinearLayout>
+                <TextView
+                    android:padding="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/duetdes"
+                    android:textSize="14sp"
+                    android:textStyle="normal"
+                    android:textColor="#000"
+                    android:layout_marginBottom="2dp">
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <Button
+                        android:id="@+id/duetadmission"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Admission Info"
+                        android:textStyle="bold"
+                        android:textSize="21sp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="2"
+                        android:textAlignment="center"
+                        android:background="@drawable/bg_green">
+                    </Button>
+                    <Button
+                        android:id="@+id/duetvisit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Visit Now"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:textSize="21sp"
+                        android:textAlignment="center"
+                        android:background="@drawable/bg_yellow">
+                    </Button>
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

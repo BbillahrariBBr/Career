@@ -8,13 +8,17 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_careerlogo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_careerlogo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".MedActivity"></activity>
+        <activity android:name=".PriActivity"></activity>
+        <activity android:name=".AgriActivity" />
+        <activity android:name=".SciActivity" />
+        <activity android:name=".EngActivity" />
+        <activity android:name=".MedActivity" />
         <activity android:name=".PublicActivity" />
         <activity android:name=".WebviewActivity" />
         <activity android:name=".PdfActivity" />
